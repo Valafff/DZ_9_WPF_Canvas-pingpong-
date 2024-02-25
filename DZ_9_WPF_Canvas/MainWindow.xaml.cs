@@ -50,17 +50,14 @@ namespace _17._01
 
 		public void UpdateScore()
 		{
-			//TextChange.Text = Canvas.GetLeft(Ball).ToString();
-			if (Canvas.GetLeft(Ball) == 0 && (Canvas.GetTop(Ball) > Canvas.GetTop(user)+user.Height/2 || Canvas.GetTop(Ball) < Canvas.GetTop(user) - user.Height / 2))
+			if (Canvas.GetLeft(Ball) == 0 && (Canvas.GetTop(Ball) > Canvas.GetTop(pc)+pc.Height/2 || Canvas.GetTop(Ball) < Canvas.GetTop(pc) - pc.Height / 2))
 			{
 				userscore += 1;
 				return;
-				// UserSсore.Content = userscore.ToString();
 			}
 			if (Canvas.GetLeft(Ball) == canvas.Width - Ball.Width && (Canvas.GetTop(Ball) > Canvas.GetTop(user)+user.Height/2 || Canvas.GetTop(Ball) < Canvas.GetTop(user)-user.Height/2))
 			{
 				pcscore += 1;
-				//BotSсore.Content = userscore.ToString();
 			}
 		}
 		public void Update()

@@ -39,7 +39,6 @@
                Margin="340,0,0,0" Foreground="Blue" FontWeight="Bold"/>
         <Label x:Name="BotSсore" Content="0" FontSize="35"
        Margin="410,0,0,0" Foreground="Red" FontWeight="Bold"/>
-        <!--<TextBox x:Name="TextChange" Canvas.Left="575" TextWrapping="Wrap" Text="TextBox" Canvas.Top="10" Width="120"/>-->
     </Canvas>
 
 </Window>
